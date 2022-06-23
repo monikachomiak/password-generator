@@ -111,4 +111,22 @@ function generatePassword() {
     console.log(userChoices);
   }
 
-  
+  // 1 true option
+    else if (confirmLower) {
+      userChoices = lowerCase;
+      console.log(userChoices);
+    }
+    else if (confirmUpper) {
+      userChoices = blankUpper.concat(upperCase);
+      console.log(userChoices);
+    }
+    else if (confirmNumber) {
+      userChoices = numbers;
+      console.log(userChoices);
+    }
+    else if (confirmSpecial) {
+      userChoices = special;
+      console.log(userChoices);
+    };
+
+    
