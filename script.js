@@ -139,4 +139,9 @@ function generatePassword() {
       console.log(allChoices);
     }
 
-    
+  // Join and return the password 
+  var password = passwordBlank.join("");
+  console.log("Your Pasword is: " + password);
+  return password;
+  
+}
