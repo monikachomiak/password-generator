@@ -58,7 +58,7 @@ function generatePassword() {
 
   };
 
-    // No answer then
+  // No answer then
     if (!confirmLower && !confirmUpper && !confirmNumber && !confirmSpecial) {
       userChoices = alert("You must choose a criteria");
     // 4 true options
@@ -67,4 +67,21 @@ function generatePassword() {
       console.log(userChoices);
     }
 
-    
+  // 3 true options
+  else if (confirmLower && confirmUpper && confirmNumber) {
+    userChoices = lowerCase.concat(upperCase, numbers);
+    console.log(userChoices);
+  }
+  else if (confirmLower && confirmUpper && confirmSpecial) {
+    userChoices = lowerCase.concat(upperCase, special);
+    console.log(userChoices);
+  }
+  else if (confirmLower && confirmNumber && confirmSpecial) {
+    userChoices = lowerCase.concat(numbers, special);
+    console.log(userChoices);
+  }
+  else if (confirmUpper && confirmNumber && confirmSpecial) {
+    userChoices = upperCase.concat(numbers, special);
+    console.log(userChoices);
+  }
+
