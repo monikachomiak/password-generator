@@ -1,6 +1,5 @@
 // Assignment code here
 
-
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
 
@@ -33,6 +32,9 @@ function writePassword() {
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
- //add coding here
 
- //test edits
+// Start Function
+function generatePassword() {
+  // Ask four user Input
+  passwordLength = prompt("How many characters would you like your password? Choose between 8 and 128");
+  console.log("Password length " + passwordLength);
