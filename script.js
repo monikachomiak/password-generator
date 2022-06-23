@@ -129,4 +129,7 @@ function generatePassword() {
       console.log(userChoices);
     };
 
+  // Empty variable for the password length
+    var passwordBlank = [];
+
     
