@@ -57,3 +57,14 @@ function generatePassword() {
     console.log("Special Character " + confirmSpecial);
 
   };
+
+    // No answer then
+    if (!confirmLower && !confirmUpper && !confirmNumber && !confirmSpecial) {
+      userChoices = alert("You must choose a criteria");
+    // 4 true options
+    } else if (confirmLower && confirmUpper && confirmNumber && confirmSpecial) {
+      userChoices = lowerCase.concat(upperCase, numbers, special);
+      console.log(userChoices);
+    }
+
+    
