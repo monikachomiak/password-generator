@@ -1,9 +1,9 @@
 # Title
-Password generator Challenge
+Password Generator Challenge
 
 # Project Description
 
-This challeneg requires that we create an application that an employee can use to generate a random password based on criteria they’ve selected.
+This challenge requires that we create an application that an employee can use to generate a random password based on criteria they’ve selected.
 
 # Expected Behavior
 
@@ -16,10 +16,9 @@ When a prompt is answered, you select the ok button to continue. If you do not c
 Once all prompts have been answered, a randomly generated password will appear. 
 
 
-
 # Deploy Link
 
-WILL NEED TO INSERT LINK HERE
+https://monikachomiak.github.io/password-generator/
 
 # Screenshot
 
