@@ -22,7 +22,9 @@ https://monikachomiak.github.io/password-generator/
 
 # Screenshot
 
-![Screenshot] (https://github.com/monikachomiak/password-generator/issues/1#issue-1283107273)
+(https://github.com/monikachomiak/password-generator/issues/1#issue-1283107273)
+
+
 
 # License
 
